@@ -1,0 +1,34 @@
+.text-primary {
+  color: #6ccdf3;
+}
+
+.text-secondary {
+  color: #bff5f1;
+}
+
+
+@media (max-width: 768px) {
+  .top-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .top-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .side-bar, .side-bar a {
+    text-align: start;
+  }
+}

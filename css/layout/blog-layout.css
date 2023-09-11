@@ -1,0 +1,84 @@
+@import url(/css/layout/nav-layout.css);
+@import url(/css/layout/main-layout.css);
+@import url(/css/utilities/reset.css);
+@import url(/css/utilities/utility-class.css);
+
+body {
+  background: #333;
+  color: #fff;
+  margin: 0 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 250px;
+  height: 275px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600px;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main */
+main {
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-auto-flow: row;
+  text-align: center;
+}
+
+.card {
+  background: #3a2539;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.author-info ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-info ul li {
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+
+.author-details {
+  font-size: 14px;
+  margin: 15px;
+}
+
+.blog-article {
+  padding: 15px;
+}
+
+.blog-article p {
+  text-align: start;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+blockquote {
+  margin: 10px;
+}
+
+button {
+  background: #bff5f1;
+  border-radius: 5px;
+  padding: 10px;
+}

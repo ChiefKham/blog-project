@@ -1,0 +1,53 @@
+@import url(/css/layout/nav-layout.css);
+@import url(/css/layout/main-layout.css);
+@import url(/css/utilities/reset.css);
+@import url(/css/utilities/utility-class.css);
+
+body {
+  background: #333;
+  color: #fff;
+  margin: 0 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600px;
+  line-height: 1.2;
+}
+
+img {
+  width: 250px;
+  height: 275px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main */
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
+  text-align: center;
+}
+
+.card {
+  background: #3a2539;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  background-color: #c010c0;
+  color: #fff;
+  padding: 5px;
+}

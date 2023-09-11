@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid:
+    "top-nav top-nav top-nav "
+    "main main aside"
+    "footer footer footer";
+}
+
+.top-nav {
+  grid-area: top-nav;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
